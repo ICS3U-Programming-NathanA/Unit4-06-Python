@@ -7,8 +7,11 @@
 
 def main():
 
+    # for loop to determine the red ID
     for red in range(0, 1):
+            # for loop to determine the green ID
         for green in range(0, 1):
+                # for loop to determine blue red ID
             for blue in range(0, 256):
                 print(f"{red},{green},{blue}")
 
